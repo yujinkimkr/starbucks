@@ -18,7 +18,7 @@ function onYouTubeIframeAPIReady() {
         },
         events: {
             onReady: function(event) {
-                event.target.mute(); // target은 재생되고 있는 영상 자체
+                // event.target.mute(); // target은 재생되고 있는 영상 자체
                 // 음소거 - 기본적으로 음소거 처리함
             }
         }
